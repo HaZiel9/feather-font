@@ -1,0 +1,1403 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$fe-activity: unicode(ea01);
+$fe-airplay: unicode(ea02);
+$fe-alert-circle: unicode(ea03);
+$fe-alert-octagon: unicode(ea05);
+$fe-alert-triangle: unicode(ea04);
+$fe-align-center: unicode(ea06);
+$fe-align-justify: unicode(ea07);
+$fe-align-left: unicode(ea08);
+$fe-align-right: unicode(ea09);
+$fe-anchor: unicode(ea0a);
+$fe-aperture: unicode(ea0b);
+$fe-archive: unicode(ea0c);
+$fe-arrow-down-circle: unicode(ea0d);
+$fe-arrow-down-left: unicode(ea0e);
+$fe-arrow-down-right: unicode(ea0f);
+$fe-arrow-down: unicode(ea10);
+$fe-arrow-left-circle: unicode(ea11);
+$fe-arrow-left: unicode(ea12);
+$fe-arrow-right-circle: unicode(ea13);
+$fe-arrow-right: unicode(ea14);
+$fe-arrow-up-circle: unicode(ea15);
+$fe-arrow-up-left: unicode(ea16);
+$fe-arrow-up-right: unicode(ea17);
+$fe-arrow-up: unicode(ea18);
+$fe-at-sign: unicode(ea19);
+$fe-award: unicode(ea1a);
+$fe-bar-chart-2: unicode(ea1b);
+$fe-bar-chart: unicode(ea1c);
+$fe-battery-charging: unicode(ea1d);
+$fe-battery: unicode(ea1e);
+$fe-bell-off: unicode(ea1f);
+$fe-bell: unicode(ea20);
+$fe-bluetooth: unicode(ea21);
+$fe-bold: unicode(ea22);
+$fe-book-open: unicode(ea23);
+$fe-book: unicode(ea24);
+$fe-bookmark: unicode(ea25);
+$fe-box: unicode(ea26);
+$fe-briefcase: unicode(ea27);
+$fe-calendar: unicode(ea28);
+$fe-camera-off: unicode(ea29);
+$fe-camera: unicode(ea2a);
+$fe-cast: unicode(ea2b);
+$fe-check-circle: unicode(ea2c);
+$fe-check-square: unicode(ea2d);
+$fe-check: unicode(ea2e);
+$fe-chevron-down: unicode(ea2f);
+$fe-chevron-left: unicode(ea30);
+$fe-chevron-right: unicode(ea31);
+$fe-chevron-up: unicode(ea32);
+$fe-chevrons-down: unicode(ea33);
+$fe-chevrons-left: unicode(ea34);
+$fe-chevrons-right: unicode(ea35);
+$fe-chevrons-up: unicode(ea36);
+$fe-chrome: unicode(ea37);
+$fe-circle: unicode(ea38);
+$fe-clipboard: unicode(ea39);
+$fe-clock: unicode(ea3a);
+$fe-cloud-drizzle: unicode(ea3b);
+$fe-cloud-lightning: unicode(ea3c);
+$fe-cloud-off: unicode(ea3d);
+$fe-cloud-rain: unicode(ea3e);
+$fe-cloud-snow: unicode(ea3f);
+$fe-cloud: unicode(ea40);
+$fe-code: unicode(ea41);
+$fe-codepen: unicode(ea42);
+$fe-codesandbox: unicode(ea43);
+$fe-coffee: unicode(ea44);
+$fe-columns: unicode(ea45);
+$fe-command: unicode(ea46);
+$fe-compass: unicode(ea47);
+$fe-copy: unicode(ea48);
+$fe-corner-down-left: unicode(ea49);
+$fe-corner-down-right: unicode(ea4a);
+$fe-corner-left-down: unicode(ea4b);
+$fe-corner-left-up: unicode(ea4c);
+$fe-corner-right-down: unicode(ea4d);
+$fe-corner-right-up: unicode(ea4e);
+$fe-corner-up-left: unicode(ea4f);
+$fe-corner-up-right: unicode(ea50);
+$fe-cpu: unicode(ea51);
+$fe-credit-card: unicode(ea52);
+$fe-crop: unicode(ea53);
+$fe-crosshair: unicode(ea54);
+$fe-database: unicode(ea55);
+$fe-delete: unicode(ea56);
+$fe-disc: unicode(ea57);
+$fe-dollar-sign: unicode(ea58);
+$fe-download-cloud: unicode(ea59);
+$fe-download: unicode(ea5a);
+$fe-droplet: unicode(ea5b);
+$fe-edit-2: unicode(ea5c);
+$fe-edit-3: unicode(ea5d);
+$fe-edit: unicode(ea5e);
+$fe-external-link: unicode(ea5f);
+$fe-eye-off: unicode(ea60);
+$fe-eye: unicode(ea61);
+$fe-facebook: unicode(ea62);
+$fe-fast-forward: unicode(ea63);
+$fe-feather: unicode(ea64);
+$fe-figma: unicode(ea65);
+$fe-file-minus: unicode(ea66);
+$fe-file-plus: unicode(ea67);
+$fe-file-text: unicode(ea68);
+$fe-file: unicode(ea69);
+$fe-film: unicode(ea6a);
+$fe-filter: unicode(ea6b);
+$fe-flag: unicode(ea6c);
+$fe-folder-minus: unicode(ea6d);
+$fe-folder-plus: unicode(ea6e);
+$fe-folder: unicode(ea6f);
+$fe-frown: unicode(ea70);
+$fe-gift: unicode(ea71);
+$fe-git-branch: unicode(ea72);
+$fe-git-commit: unicode(ea73);
+$fe-git-merge: unicode(ea74);
+$fe-git-pull-request: unicode(ea75);
+$fe-github: unicode(ea76);
+$fe-gitlab: unicode(ea77);
+$fe-globe: unicode(ea78);
+$fe-grid: unicode(ea79);
+$fe-hard-drive: unicode(ea7a);
+$fe-hash: unicode(ea7b);
+$fe-headphones: unicode(ea7c);
+$fe-heart: unicode(ea7d);
+$fe-help-circle: unicode(ea7e);
+$fe-hexagon: unicode(ea7f);
+$fe-home: unicode(ea80);
+$fe-image: unicode(ea81);
+$fe-inbox: unicode(ea82);
+$fe-info: unicode(ea83);
+$fe-instagram: unicode(ea84);
+$fe-italic: unicode(ea85);
+$fe-key: unicode(ea86);
+$fe-layers: unicode(ea87);
+$fe-layout: unicode(ea88);
+$fe-life-buoy: unicode(ea89);
+$fe-link-2: unicode(ea8a);
+$fe-link: unicode(ea8b);
+$fe-linkedin: unicode(ea8c);
+$fe-list: unicode(ea8d);
+$fe-loader: unicode(ea8f);
+$fe-lock: unicode(ea8e);
+$fe-log-in: unicode(ea90);
+$fe-log-out: unicode(ea91);
+$fe-mail: unicode(ea92);
+$fe-map-pin: unicode(ea93);
+$fe-map: unicode(ea94);
+$fe-maximize-2: unicode(ea95);
+$fe-maximize: unicode(ea96);
+$fe-meh: unicode(ea97);
+$fe-menu: unicode(ea98);
+$fe-message-circle: unicode(ea99);
+$fe-message-square: unicode(ea9a);
+$fe-mic-off: unicode(ea9b);
+$fe-mic: unicode(ea9c);
+$fe-minimize-2: unicode(ea9d);
+$fe-minimize: unicode(ea9e);
+$fe-minus-circle: unicode(ea9f);
+$fe-minus-square: unicode(eaa0);
+$fe-minus: unicode(eaa1);
+$fe-monitor: unicode(eaa2);
+$fe-moon: unicode(eaa3);
+$fe-more-horizontal: unicode(eaa4);
+$fe-more-vertical: unicode(eaa5);
+$fe-mouse-pointer: unicode(eaa6);
+$fe-move: unicode(eaa7);
+$fe-music: unicode(eaa8);
+$fe-navigation-2: unicode(eaa9);
+$fe-navigation: unicode(eaaa);
+$fe-octagon: unicode(eaab);
+$fe-package: unicode(eaac);
+$fe-paperclip: unicode(eaad);
+$fe-pause-circle: unicode(eaae);
+$fe-pause: unicode(eaaf);
+$fe-pen-tool: unicode(eab0);
+$fe-percent: unicode(eab1);
+$fe-phone-call: unicode(eab2);
+$fe-phone-forwarded: unicode(eab3);
+$fe-phone-incoming: unicode(eab4);
+$fe-phone-missed: unicode(eab5);
+$fe-phone-off: unicode(eab6);
+$fe-phone-outgoing: unicode(eab7);
+$fe-phone: unicode(eab8);
+$fe-pie-chart: unicode(eab9);
+$fe-play-circle: unicode(eaba);
+$fe-play: unicode(eabb);
+$fe-plus-circle: unicode(eabc);
+$fe-plus-square: unicode(eabd);
+$fe-plus: unicode(eabe);
+$fe-pocket: unicode(eabf);
+$fe-power: unicode(eac0);
+$fe-printer: unicode(eac1);
+$fe-radio: unicode(eac2);
+$fe-refresh-ccw: unicode(eac3);
+$fe-refresh-cw: unicode(eac4);
+$fe-repeat: unicode(eac5);
+$fe-rewind: unicode(eac6);
+$fe-rotate-ccw: unicode(eac7);
+$fe-rotate-cw: unicode(eac8);
+$fe-rss: unicode(eac9);
+$fe-save: unicode(eaca);
+$fe-scissors: unicode(eacb);
+$fe-search: unicode(eacc);
+$fe-send: unicode(eacd);
+$fe-server: unicode(eace);
+$fe-settings: unicode(eacf);
+$fe-share-2: unicode(ead0);
+$fe-share: unicode(ead1);
+$fe-shield-off: unicode(ead2);
+$fe-shield: unicode(ead3);
+$fe-shopping-bag: unicode(ead4);
+$fe-shopping-cart: unicode(ead5);
+$fe-shuffle: unicode(ead6);
+$fe-sidebar: unicode(ead7);
+$fe-skip-back: unicode(ead8);
+$fe-skip-forward: unicode(ead9);
+$fe-slack: unicode(eada);
+$fe-slash: unicode(eadb);
+$fe-sliders: unicode(eadc);
+$fe-smartphone: unicode(eadd);
+$fe-smile: unicode(eade);
+$fe-speaker: unicode(eadf);
+$fe-square: unicode(eae0);
+$fe-star: unicode(eae1);
+$fe-stop-circle: unicode(eae2);
+$fe-sun: unicode(eae3);
+$fe-sunrise: unicode(eae4);
+$fe-sunset: unicode(eae5);
+$fe-tablet: unicode(eae6);
+$fe-tag: unicode(eae7);
+$fe-target: unicode(eae8);
+$fe-terminal: unicode(eae9);
+$fe-thermometer: unicode(eaea);
+$fe-thumbs-down: unicode(eaeb);
+$fe-thumbs-up: unicode(eaec);
+$fe-toggle-left: unicode(eaed);
+$fe-toggle-right: unicode(eaee);
+$fe-trash-2: unicode(eaef);
+$fe-trash: unicode(eaf0);
+$fe-trello: unicode(eaf1);
+$fe-trending-down: unicode(eaf2);
+$fe-trending-up: unicode(eaf3);
+$fe-triangle: unicode(eaf4);
+$fe-truck: unicode(eaf5);
+$fe-tv: unicode(eaf6);
+$fe-twitter: unicode(eaf7);
+$fe-type: unicode(eaf8);
+$fe-umbrella: unicode(eaf9);
+$fe-underline: unicode(eafa);
+$fe-unlock: unicode(eafb);
+$fe-upload-cloud: unicode(eafc);
+$fe-upload: unicode(eafd);
+$fe-user-check: unicode(eafe);
+$fe-user-minus: unicode(eaff);
+$fe-user-plus: unicode(eb00);
+$fe-user-x: unicode(eb01);
+$fe-user: unicode(eb02);
+$fe-users: unicode(eb03);
+$fe-video-off: unicode(eb04);
+$fe-video: unicode(eb05);
+$fe-voicemail: unicode(eb06);
+$fe-volume-1: unicode(eb07);
+$fe-volume-2: unicode(eb08);
+$fe-volume-x: unicode(eb09);
+$fe-volume: unicode(eb0a);
+$fe-watch: unicode(eb0b);
+$fe-wifi-off: unicode(eb0c);
+$fe-wifi: unicode(eb0d);
+$fe-wind: unicode(eb0e);
+$fe-x-circle: unicode(eb0f);
+$fe-x-octagon: unicode(eb10);
+$fe-x-square: unicode(eb11);
+$fe-x: unicode(eb12);
+$fe-youtube: unicode(eb13);
+$fe-zap-off: unicode(eb14);
+$fe-zap: unicode(eb15);
+$fe-zoom-in: unicode(eb16);
+$fe-zoom-out: unicode(eb17);
+
+.fe-activity::before {
+  content: $fe-activity;
+}
+
+.fe-airplay::before {
+  content: $fe-airplay;
+}
+
+.fe-alert-circle::before {
+  content: $fe-alert-circle;
+}
+
+.fe-alert-octagon::before {
+  content: $fe-alert-octagon;
+}
+
+.fe-alert-triangle::before {
+  content: $fe-alert-triangle;
+}
+
+.fe-align-center::before {
+  content: $fe-align-center;
+}
+
+.fe-align-justify::before {
+  content: $fe-align-justify;
+}
+
+.fe-align-left::before {
+  content: $fe-align-left;
+}
+
+.fe-align-right::before {
+  content: $fe-align-right;
+}
+
+.fe-anchor::before {
+  content: $fe-anchor;
+}
+
+.fe-aperture::before {
+  content: $fe-aperture;
+}
+
+.fe-archive::before {
+  content: $fe-archive;
+}
+
+.fe-arrow-down-circle::before {
+  content: $fe-arrow-down-circle;
+}
+
+.fe-arrow-down-left::before {
+  content: $fe-arrow-down-left;
+}
+
+.fe-arrow-down-right::before {
+  content: $fe-arrow-down-right;
+}
+
+.fe-arrow-down::before {
+  content: $fe-arrow-down;
+}
+
+.fe-arrow-left-circle::before {
+  content: $fe-arrow-left-circle;
+}
+
+.fe-arrow-left::before {
+  content: $fe-arrow-left;
+}
+
+.fe-arrow-right-circle::before {
+  content: $fe-arrow-right-circle;
+}
+
+.fe-arrow-right::before {
+  content: $fe-arrow-right;
+}
+
+.fe-arrow-up-circle::before {
+  content: $fe-arrow-up-circle;
+}
+
+.fe-arrow-up-left::before {
+  content: $fe-arrow-up-left;
+}
+
+.fe-arrow-up-right::before {
+  content: $fe-arrow-up-right;
+}
+
+.fe-arrow-up::before {
+  content: $fe-arrow-up;
+}
+
+.fe-at-sign::before {
+  content: $fe-at-sign;
+}
+
+.fe-award::before {
+  content: $fe-award;
+}
+
+.fe-bar-chart-2::before {
+  content: $fe-bar-chart-2;
+}
+
+.fe-bar-chart::before {
+  content: $fe-bar-chart;
+}
+
+.fe-battery-charging::before {
+  content: $fe-battery-charging;
+}
+
+.fe-battery::before {
+  content: $fe-battery;
+}
+
+.fe-bell-off::before {
+  content: $fe-bell-off;
+}
+
+.fe-bell::before {
+  content: $fe-bell;
+}
+
+.fe-bluetooth::before {
+  content: $fe-bluetooth;
+}
+
+.fe-bold::before {
+  content: $fe-bold;
+}
+
+.fe-book-open::before {
+  content: $fe-book-open;
+}
+
+.fe-book::before {
+  content: $fe-book;
+}
+
+.fe-bookmark::before {
+  content: $fe-bookmark;
+}
+
+.fe-box::before {
+  content: $fe-box;
+}
+
+.fe-briefcase::before {
+  content: $fe-briefcase;
+}
+
+.fe-calendar::before {
+  content: $fe-calendar;
+}
+
+.fe-camera-off::before {
+  content: $fe-camera-off;
+}
+
+.fe-camera::before {
+  content: $fe-camera;
+}
+
+.fe-cast::before {
+  content: $fe-cast;
+}
+
+.fe-check-circle::before {
+  content: $fe-check-circle;
+}
+
+.fe-check-square::before {
+  content: $fe-check-square;
+}
+
+.fe-check::before {
+  content: $fe-check;
+}
+
+.fe-chevron-down::before {
+  content: $fe-chevron-down;
+}
+
+.fe-chevron-left::before {
+  content: $fe-chevron-left;
+}
+
+.fe-chevron-right::before {
+  content: $fe-chevron-right;
+}
+
+.fe-chevron-up::before {
+  content: $fe-chevron-up;
+}
+
+.fe-chevrons-down::before {
+  content: $fe-chevrons-down;
+}
+
+.fe-chevrons-left::before {
+  content: $fe-chevrons-left;
+}
+
+.fe-chevrons-right::before {
+  content: $fe-chevrons-right;
+}
+
+.fe-chevrons-up::before {
+  content: $fe-chevrons-up;
+}
+
+.fe-chrome::before {
+  content: $fe-chrome;
+}
+
+.fe-circle::before {
+  content: $fe-circle;
+}
+
+.fe-clipboard::before {
+  content: $fe-clipboard;
+}
+
+.fe-clock::before {
+  content: $fe-clock;
+}
+
+.fe-cloud-drizzle::before {
+  content: $fe-cloud-drizzle;
+}
+
+.fe-cloud-lightning::before {
+  content: $fe-cloud-lightning;
+}
+
+.fe-cloud-off::before {
+  content: $fe-cloud-off;
+}
+
+.fe-cloud-rain::before {
+  content: $fe-cloud-rain;
+}
+
+.fe-cloud-snow::before {
+  content: $fe-cloud-snow;
+}
+
+.fe-cloud::before {
+  content: $fe-cloud;
+}
+
+.fe-code::before {
+  content: $fe-code;
+}
+
+.fe-codepen::before {
+  content: $fe-codepen;
+}
+
+.fe-codesandbox::before {
+  content: $fe-codesandbox;
+}
+
+.fe-coffee::before {
+  content: $fe-coffee;
+}
+
+.fe-columns::before {
+  content: $fe-columns;
+}
+
+.fe-command::before {
+  content: $fe-command;
+}
+
+.fe-compass::before {
+  content: $fe-compass;
+}
+
+.fe-copy::before {
+  content: $fe-copy;
+}
+
+.fe-corner-down-left::before {
+  content: $fe-corner-down-left;
+}
+
+.fe-corner-down-right::before {
+  content: $fe-corner-down-right;
+}
+
+.fe-corner-left-down::before {
+  content: $fe-corner-left-down;
+}
+
+.fe-corner-left-up::before {
+  content: $fe-corner-left-up;
+}
+
+.fe-corner-right-down::before {
+  content: $fe-corner-right-down;
+}
+
+.fe-corner-right-up::before {
+  content: $fe-corner-right-up;
+}
+
+.fe-corner-up-left::before {
+  content: $fe-corner-up-left;
+}
+
+.fe-corner-up-right::before {
+  content: $fe-corner-up-right;
+}
+
+.fe-cpu::before {
+  content: $fe-cpu;
+}
+
+.fe-credit-card::before {
+  content: $fe-credit-card;
+}
+
+.fe-crop::before {
+  content: $fe-crop;
+}
+
+.fe-crosshair::before {
+  content: $fe-crosshair;
+}
+
+.fe-database::before {
+  content: $fe-database;
+}
+
+.fe-delete::before {
+  content: $fe-delete;
+}
+
+.fe-disc::before {
+  content: $fe-disc;
+}
+
+.fe-dollar-sign::before {
+  content: $fe-dollar-sign;
+}
+
+.fe-download-cloud::before {
+  content: $fe-download-cloud;
+}
+
+.fe-download::before {
+  content: $fe-download;
+}
+
+.fe-droplet::before {
+  content: $fe-droplet;
+}
+
+.fe-edit-2::before {
+  content: $fe-edit-2;
+}
+
+.fe-edit-3::before {
+  content: $fe-edit-3;
+}
+
+.fe-edit::before {
+  content: $fe-edit;
+}
+
+.fe-external-link::before {
+  content: $fe-external-link;
+}
+
+.fe-eye-off::before {
+  content: $fe-eye-off;
+}
+
+.fe-eye::before {
+  content: $fe-eye;
+}
+
+.fe-facebook::before {
+  content: $fe-facebook;
+}
+
+.fe-fast-forward::before {
+  content: $fe-fast-forward;
+}
+
+.fe-feather::before {
+  content: $fe-feather;
+}
+
+.fe-figma::before {
+  content: $fe-figma;
+}
+
+.fe-file-minus::before {
+  content: $fe-file-minus;
+}
+
+.fe-file-plus::before {
+  content: $fe-file-plus;
+}
+
+.fe-file-text::before {
+  content: $fe-file-text;
+}
+
+.fe-file::before {
+  content: $fe-file;
+}
+
+.fe-film::before {
+  content: $fe-film;
+}
+
+.fe-filter::before {
+  content: $fe-filter;
+}
+
+.fe-flag::before {
+  content: $fe-flag;
+}
+
+.fe-folder-minus::before {
+  content: $fe-folder-minus;
+}
+
+.fe-folder-plus::before {
+  content: $fe-folder-plus;
+}
+
+.fe-folder::before {
+  content: $fe-folder;
+}
+
+.fe-frown::before {
+  content: $fe-frown;
+}
+
+.fe-gift::before {
+  content: $fe-gift;
+}
+
+.fe-git-branch::before {
+  content: $fe-git-branch;
+}
+
+.fe-git-commit::before {
+  content: $fe-git-commit;
+}
+
+.fe-git-merge::before {
+  content: $fe-git-merge;
+}
+
+.fe-git-pull-request::before {
+  content: $fe-git-pull-request;
+}
+
+.fe-github::before {
+  content: $fe-github;
+}
+
+.fe-gitlab::before {
+  content: $fe-gitlab;
+}
+
+.fe-globe::before {
+  content: $fe-globe;
+}
+
+.fe-grid::before {
+  content: $fe-grid;
+}
+
+.fe-hard-drive::before {
+  content: $fe-hard-drive;
+}
+
+.fe-hash::before {
+  content: $fe-hash;
+}
+
+.fe-headphones::before {
+  content: $fe-headphones;
+}
+
+.fe-heart::before {
+  content: $fe-heart;
+}
+
+.fe-help-circle::before {
+  content: $fe-help-circle;
+}
+
+.fe-hexagon::before {
+  content: $fe-hexagon;
+}
+
+.fe-home::before {
+  content: $fe-home;
+}
+
+.fe-image::before {
+  content: $fe-image;
+}
+
+.fe-inbox::before {
+  content: $fe-inbox;
+}
+
+.fe-info::before {
+  content: $fe-info;
+}
+
+.fe-instagram::before {
+  content: $fe-instagram;
+}
+
+.fe-italic::before {
+  content: $fe-italic;
+}
+
+.fe-key::before {
+  content: $fe-key;
+}
+
+.fe-layers::before {
+  content: $fe-layers;
+}
+
+.fe-layout::before {
+  content: $fe-layout;
+}
+
+.fe-life-buoy::before {
+  content: $fe-life-buoy;
+}
+
+.fe-link-2::before {
+  content: $fe-link-2;
+}
+
+.fe-link::before {
+  content: $fe-link;
+}
+
+.fe-linkedin::before {
+  content: $fe-linkedin;
+}
+
+.fe-list::before {
+  content: $fe-list;
+}
+
+.fe-loader::before {
+  content: $fe-loader;
+}
+
+.fe-lock::before {
+  content: $fe-lock;
+}
+
+.fe-log-in::before {
+  content: $fe-log-in;
+}
+
+.fe-log-out::before {
+  content: $fe-log-out;
+}
+
+.fe-mail::before {
+  content: $fe-mail;
+}
+
+.fe-map-pin::before {
+  content: $fe-map-pin;
+}
+
+.fe-map::before {
+  content: $fe-map;
+}
+
+.fe-maximize-2::before {
+  content: $fe-maximize-2;
+}
+
+.fe-maximize::before {
+  content: $fe-maximize;
+}
+
+.fe-meh::before {
+  content: $fe-meh;
+}
+
+.fe-menu::before {
+  content: $fe-menu;
+}
+
+.fe-message-circle::before {
+  content: $fe-message-circle;
+}
+
+.fe-message-square::before {
+  content: $fe-message-square;
+}
+
+.fe-mic-off::before {
+  content: $fe-mic-off;
+}
+
+.fe-mic::before {
+  content: $fe-mic;
+}
+
+.fe-minimize-2::before {
+  content: $fe-minimize-2;
+}
+
+.fe-minimize::before {
+  content: $fe-minimize;
+}
+
+.fe-minus-circle::before {
+  content: $fe-minus-circle;
+}
+
+.fe-minus-square::before {
+  content: $fe-minus-square;
+}
+
+.fe-minus::before {
+  content: $fe-minus;
+}
+
+.fe-monitor::before {
+  content: $fe-monitor;
+}
+
+.fe-moon::before {
+  content: $fe-moon;
+}
+
+.fe-more-horizontal::before {
+  content: $fe-more-horizontal;
+}
+
+.fe-more-vertical::before {
+  content: $fe-more-vertical;
+}
+
+.fe-mouse-pointer::before {
+  content: $fe-mouse-pointer;
+}
+
+.fe-move::before {
+  content: $fe-move;
+}
+
+.fe-music::before {
+  content: $fe-music;
+}
+
+.fe-navigation-2::before {
+  content: $fe-navigation-2;
+}
+
+.fe-navigation::before {
+  content: $fe-navigation;
+}
+
+.fe-octagon::before {
+  content: $fe-octagon;
+}
+
+.fe-package::before {
+  content: $fe-package;
+}
+
+.fe-paperclip::before {
+  content: $fe-paperclip;
+}
+
+.fe-pause-circle::before {
+  content: $fe-pause-circle;
+}
+
+.fe-pause::before {
+  content: $fe-pause;
+}
+
+.fe-pen-tool::before {
+  content: $fe-pen-tool;
+}
+
+.fe-percent::before {
+  content: $fe-percent;
+}
+
+.fe-phone-call::before {
+  content: $fe-phone-call;
+}
+
+.fe-phone-forwarded::before {
+  content: $fe-phone-forwarded;
+}
+
+.fe-phone-incoming::before {
+  content: $fe-phone-incoming;
+}
+
+.fe-phone-missed::before {
+  content: $fe-phone-missed;
+}
+
+.fe-phone-off::before {
+  content: $fe-phone-off;
+}
+
+.fe-phone-outgoing::before {
+  content: $fe-phone-outgoing;
+}
+
+.fe-phone::before {
+  content: $fe-phone;
+}
+
+.fe-pie-chart::before {
+  content: $fe-pie-chart;
+}
+
+.fe-play-circle::before {
+  content: $fe-play-circle;
+}
+
+.fe-play::before {
+  content: $fe-play;
+}
+
+.fe-plus-circle::before {
+  content: $fe-plus-circle;
+}
+
+.fe-plus-square::before {
+  content: $fe-plus-square;
+}
+
+.fe-plus::before {
+  content: $fe-plus;
+}
+
+.fe-pocket::before {
+  content: $fe-pocket;
+}
+
+.fe-power::before {
+  content: $fe-power;
+}
+
+.fe-printer::before {
+  content: $fe-printer;
+}
+
+.fe-radio::before {
+  content: $fe-radio;
+}
+
+.fe-refresh-ccw::before {
+  content: $fe-refresh-ccw;
+}
+
+.fe-refresh-cw::before {
+  content: $fe-refresh-cw;
+}
+
+.fe-repeat::before {
+  content: $fe-repeat;
+}
+
+.fe-rewind::before {
+  content: $fe-rewind;
+}
+
+.fe-rotate-ccw::before {
+  content: $fe-rotate-ccw;
+}
+
+.fe-rotate-cw::before {
+  content: $fe-rotate-cw;
+}
+
+.fe-rss::before {
+  content: $fe-rss;
+}
+
+.fe-save::before {
+  content: $fe-save;
+}
+
+.fe-scissors::before {
+  content: $fe-scissors;
+}
+
+.fe-search::before {
+  content: $fe-search;
+}
+
+.fe-send::before {
+  content: $fe-send;
+}
+
+.fe-server::before {
+  content: $fe-server;
+}
+
+.fe-settings::before {
+  content: $fe-settings;
+}
+
+.fe-share-2::before {
+  content: $fe-share-2;
+}
+
+.fe-share::before {
+  content: $fe-share;
+}
+
+.fe-shield-off::before {
+  content: $fe-shield-off;
+}
+
+.fe-shield::before {
+  content: $fe-shield;
+}
+
+.fe-shopping-bag::before {
+  content: $fe-shopping-bag;
+}
+
+.fe-shopping-cart::before {
+  content: $fe-shopping-cart;
+}
+
+.fe-shuffle::before {
+  content: $fe-shuffle;
+}
+
+.fe-sidebar::before {
+  content: $fe-sidebar;
+}
+
+.fe-skip-back::before {
+  content: $fe-skip-back;
+}
+
+.fe-skip-forward::before {
+  content: $fe-skip-forward;
+}
+
+.fe-slack::before {
+  content: $fe-slack;
+}
+
+.fe-slash::before {
+  content: $fe-slash;
+}
+
+.fe-sliders::before {
+  content: $fe-sliders;
+}
+
+.fe-smartphone::before {
+  content: $fe-smartphone;
+}
+
+.fe-smile::before {
+  content: $fe-smile;
+}
+
+.fe-speaker::before {
+  content: $fe-speaker;
+}
+
+.fe-square::before {
+  content: $fe-square;
+}
+
+.fe-star::before {
+  content: $fe-star;
+}
+
+.fe-stop-circle::before {
+  content: $fe-stop-circle;
+}
+
+.fe-sun::before {
+  content: $fe-sun;
+}
+
+.fe-sunrise::before {
+  content: $fe-sunrise;
+}
+
+.fe-sunset::before {
+  content: $fe-sunset;
+}
+
+.fe-tablet::before {
+  content: $fe-tablet;
+}
+
+.fe-tag::before {
+  content: $fe-tag;
+}
+
+.fe-target::before {
+  content: $fe-target;
+}
+
+.fe-terminal::before {
+  content: $fe-terminal;
+}
+
+.fe-thermometer::before {
+  content: $fe-thermometer;
+}
+
+.fe-thumbs-down::before {
+  content: $fe-thumbs-down;
+}
+
+.fe-thumbs-up::before {
+  content: $fe-thumbs-up;
+}
+
+.fe-toggle-left::before {
+  content: $fe-toggle-left;
+}
+
+.fe-toggle-right::before {
+  content: $fe-toggle-right;
+}
+
+.fe-trash-2::before {
+  content: $fe-trash-2;
+}
+
+.fe-trash::before {
+  content: $fe-trash;
+}
+
+.fe-trello::before {
+  content: $fe-trello;
+}
+
+.fe-trending-down::before {
+  content: $fe-trending-down;
+}
+
+.fe-trending-up::before {
+  content: $fe-trending-up;
+}
+
+.fe-triangle::before {
+  content: $fe-triangle;
+}
+
+.fe-truck::before {
+  content: $fe-truck;
+}
+
+.fe-tv::before {
+  content: $fe-tv;
+}
+
+.fe-twitter::before {
+  content: $fe-twitter;
+}
+
+.fe-type::before {
+  content: $fe-type;
+}
+
+.fe-umbrella::before {
+  content: $fe-umbrella;
+}
+
+.fe-underline::before {
+  content: $fe-underline;
+}
+
+.fe-unlock::before {
+  content: $fe-unlock;
+}
+
+.fe-upload-cloud::before {
+  content: $fe-upload-cloud;
+}
+
+.fe-upload::before {
+  content: $fe-upload;
+}
+
+.fe-user-check::before {
+  content: $fe-user-check;
+}
+
+.fe-user-minus::before {
+  content: $fe-user-minus;
+}
+
+.fe-user-plus::before {
+  content: $fe-user-plus;
+}
+
+.fe-user-x::before {
+  content: $fe-user-x;
+}
+
+.fe-user::before {
+  content: $fe-user;
+}
+
+.fe-users::before {
+  content: $fe-users;
+}
+
+.fe-video-off::before {
+  content: $fe-video-off;
+}
+
+.fe-video::before {
+  content: $fe-video;
+}
+
+.fe-voicemail::before {
+  content: $fe-voicemail;
+}
+
+.fe-volume-1::before {
+  content: $fe-volume-1;
+}
+
+.fe-volume-2::before {
+  content: $fe-volume-2;
+}
+
+.fe-volume-x::before {
+  content: $fe-volume-x;
+}
+
+.fe-volume::before {
+  content: $fe-volume;
+}
+
+.fe-watch::before {
+  content: $fe-watch;
+}
+
+.fe-wifi-off::before {
+  content: $fe-wifi-off;
+}
+
+.fe-wifi::before {
+  content: $fe-wifi;
+}
+
+.fe-wind::before {
+  content: $fe-wind;
+}
+
+.fe-x-circle::before {
+  content: $fe-x-circle;
+}
+
+.fe-x-octagon::before {
+  content: $fe-x-octagon;
+}
+
+.fe-x-square::before {
+  content: $fe-x-square;
+}
+
+.fe-x::before {
+  content: $fe-x;
+}
+
+.fe-youtube::before {
+  content: $fe-youtube;
+}
+
+.fe-zap-off::before {
+  content: $fe-zap-off;
+}
+
+.fe-zap::before {
+  content: $fe-zap;
+}
+
+.fe-zoom-in::before {
+  content: $fe-zoom-in;
+}
+
+.fe-zoom-out::before {
+  content: $fe-zoom-out;
+}
+

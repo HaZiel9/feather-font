@@ -1,0 +1,155 @@
+/* --------------------------------
+
+Feather Web Font
+Generated using nucleoapp.com
+
+-------------------------------- */
+@import "variables.less";
+@import "mixins.less";
+
+@font-face {
+  font-family: 'Feather';
+  src: url('@{fe-font-path}/Feather.eot');
+  src: url('@{fe-font-path}/Feather.eot') format('embedded-opentype'),
+    url('@{fe-font-path}/Feather.woff2') format('woff2'),
+    url('@{fe-font-path}/Feather.woff') format('woff'),
+    url('@{fe-font-path}/Feather.ttf') format('truetype'),
+    url('@{fe-font-path}/Feather.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------
+	base class definition
+-------------------------*/
+
+.fe {
+  display: inline-block;
+  font: normal normal normal 1em/1 'Feather';
+  speak: none;
+  text-transform: none;
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------
+  change icon size
+-------------------------*/
+
+/* relative units */
+.fe-sm {
+  font-size: 0.8em;
+}
+.fe-lg {
+  font-size: 1.2em;
+}
+/* absolute units */
+.fe-16 {
+  font-size: 16px;
+}
+.fe-32 {
+  font-size: 32px;
+}
+
+/*----------------------------------
+  add a square/circle background
+-----------------------------------*/
+
+.fe-bg-square,
+.fe-bg-circle {
+  padding: 0.35em;
+  background-color: @fe-background-color;
+}
+
+.fe-bg-circle {
+  border-radius: 50%;
+}
+
+/*------------------------------------
+  use icons as list item markers
+-------------------------------------*/
+
+.fe-ul {
+  padding-left: 0;
+  list-style-type: none;
+
+  > li {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.4;
+  }
+
+  > li > .fe {
+    margin-right: @fe-li-margin-right;
+    line-height: inherit;
+  }
+}
+
+/*------------------------
+  spinning icons
+-------------------------*/
+
+.fe-is-spinning {
+  -webkit-animation: fe-spin 2s infinite linear;
+  -moz-animation: fe-spin 2s infinite linear;
+  animation: fe-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fe-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes fe-spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes fe-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------
+  rotated/flipped icons
+-------------------------*/
+
+.fe-rotate-90  {
+	.fe-rotate(90deg, 1);
+}
+
+.fe-rotate-180 {
+	.fe-rotate(180deg, 2);
+}
+
+.fe-rotate-270 {
+	.fe-rotate(270deg, 3);
+}
+
+.fe-flip-y {
+	.fe-flip(-1, 1, 0);
+}
+.fe-flip-x {
+	.fe-flip(1, -1, 2);
+}
+
+@import "icons";
